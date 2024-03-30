@@ -5,14 +5,13 @@ body {
   font-size: 14px;
   color: #212121;
 }
-:root{
-  --main-color:#212121;
+:root {
+  --main-color: #212121;
   --hover-color-blue: #2196f3;
-  --white-text:#fff;
-  --basic-text:#757575;
+  --white-text: #fff;
+  --basic-text: #757575;
   --background-lite: #f5f4fa;
-  --background-dark:#2f303a;
-
+  --background-dark: #2f303a;
 }
 .hero {
   background-color: var(--background-dark);
@@ -31,7 +30,7 @@ body {
 }
 .navg:hover,
 .navg:focus {
-  color:var(--hover-color-blue);
+  color: var(--hover-color-blue);
 }
 .link.nav {
   color: rgb(117, 117, 117);
@@ -89,7 +88,7 @@ ul {
 .team {
   width: 1600px;
   height: 648px;
-  background:var(--background-lite); 
+  background: var(--background-lite);
 }
 
 .team-title {
@@ -140,12 +139,12 @@ footer {
   cursor: pointer;
 }
 .filters:hover,
-.filters:focus{
+.filters:focus {
   font-weight: 500;
-font-size: 16px;
-line-height: 162%;
-letter-spacing: 0.03em;
-text-align: center;
-color: var(--white-text);
-background: var(--hover-color-blue);
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white-text);
+  background: var(--hover-color-blue);
 }
