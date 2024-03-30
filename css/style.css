@@ -1,8 +1,151 @@
-.body{
-  font-family: Raleway, sans-serif;  
-  font: bold;
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+:root{
+  --main-color:#212121;
+  --hover-color-blue: #2196f3;
+  --white-text:#fff;
+  --basic-text:#757575;
+  --background-lite: #f5f4fa;
+  --background-dark:#2f303a;
+
+}
+.hero {
+  background-color: var(--background-dark);
+  width: 1600px;
+  height: 600px;
 }
 
-/* logo {
+.logo {
   font-family: Raleway, sans-serif;
-} */
+  font: bold;
+  text-decoration: none;
+}
+.navg {
+  color: rgb(33, 33, 33);
+  text-decoration: none;
+}
+.navg:hover,
+.navg:focus {
+  color:var(--hover-color-blue);
+}
+.link.nav {
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+}
+
+.link.nav:hover,
+.link.nav:focus {
+  color: var(--hover-color-blue);
+}
+.h1 {
+  font-weight: 900;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white-text);
+}
+.main-but {
+  background-color: var(--hover-color-blue);
+  width: 216px;
+  height: 50px;
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+}
+.main-but :active {
+  background-color: #188ce8;
+}
+.decisions {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font: bold;
+}
+ul {
+  list-style-type: none;
+}
+.dectext {
+  font-weight: 400;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+}
+.present {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team {
+  width: 1600px;
+  height: 648px;
+  background:var(--background-lite); 
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.pofesion {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+}
+footer {
+  width: 1600px;
+  height: 252px;
+  background: var(--background-dark);
+}
+
+.adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+.appeal {
+  font-weight: 400;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+  text-decoration: none;
+}
+.filters {
+  background-color: var(--background-lite);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: 38px;
+  cursor: pointer;
+}
+.filters:hover,
+.filters:focus{
+  font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--white-text);
+background: var(--hover-color-blue);
+}
