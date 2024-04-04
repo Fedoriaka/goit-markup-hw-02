@@ -6,12 +6,15 @@
   --background-lite: #f5f4fa;
   --background-dark: #2f303a;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   color: var(--main-color);
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
@@ -77,8 +80,9 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font: bold;
   color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 14px;
 }
 ul {
   list-style-type: none;
@@ -96,7 +100,7 @@ ul {
   text-align: center;
 }
 .team {
-  background: var(--background-lite);
+  background-color: var(--background-lite);
 }
 
 .team-title {
@@ -110,7 +114,6 @@ ul {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  
 }
 .profesion {
   font-weight: 400;
@@ -120,7 +123,7 @@ ul {
   text-align: center;
 }
 .footer {
-  background: var(--background-dark);
+  background-color: var(--background-dark);
 }
 
 .adress {
@@ -129,6 +132,7 @@ ul {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--white-text);
+  font-style: normal;
 }
 .appeal {
   font-weight: 400;
@@ -136,6 +140,7 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
 }
 .appeal:hover,
 .appeal:focus {
@@ -161,4 +166,23 @@ ul {
   text-align: center;
   color: var(--white-text);
   background: var(--hover-color-blue);
+}
+.sub-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color:var(--main-color);
+text-decoration: none;
+}
+.filter-class{
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.03em;
+color: var(--basic-text);
+text-decoration: none;
+}
+.card{
+  text-decoration: none;
 }
