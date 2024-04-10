@@ -16,12 +16,38 @@ body {
   margin: 0;
   padding: 0;
 }
-
+h1,
+h2,
+h3,
+ul,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
 .hero {
   background-color: var(--background-dark);
+  padding-bottom: 280px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .logo {
+  display: inline-block;
+  font-family: Raleway, sans-serif;
+  font: bold;
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 93px;
+}
+.logo-footer {
   font-family: Raleway, sans-serif;
   font: bold;
   text-decoration: none;
@@ -31,6 +57,7 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
 .navg {
   text-decoration: none;
   font-weight: 500;
@@ -43,8 +70,15 @@ body {
   color: var(--hover-color-blue);
 }
 .link-nav {
+  display: inline-block;
   color: rgb(117, 117, 117);
   text-decoration: none;
+}
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 .link-nav:hover,
@@ -52,6 +86,7 @@ body {
   color: var(--hover-color-blue);
 }
 .h1 {
+  display: inline-block;
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -59,19 +94,23 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: var(--white-text);
+  width: 696px;
+  min-height: 120px;
+  margin-bottom: 30px;
 }
 .main-but {
+  display: block;
   background-color: var(--hover-color-blue);
-  width: 216px;
+  min-width: 216px;
   height: 50px;
   color: var(--white-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.06em;
-  margin-left: 692px;
   text-align: center;
   cursor: pointer;
+  margin: auto;
 }
 .main-but :active {
   background-color: #188ce8;
@@ -83,7 +122,9 @@ body {
   color: var(--main-color);
   font-family: var(--font-family);
   font-size: 14px;
+  margin-bottom: 10px;
 }
+
 ul {
   list-style-type: none;
 }
@@ -92,15 +133,24 @@ ul {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--basic-text);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .present {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 94px;
+  color: var(--main-color);
+}
+.imag {
+  margin-top: 50px;
 }
 .team {
   background-color: var(--background-lite);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -114,6 +164,10 @@ ul {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 30px;
+}
+.people {
+  margin-top: 50px;
 }
 .profesion {
   font-weight: 400;
@@ -121,9 +175,12 @@ ul {
   letter-spacing: 0.03em;
   color: var(--basic-text);
   text-align: center;
+  margin-top: 10px;
 }
 .footer {
   background-color: var(--background-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -133,8 +190,20 @@ ul {
   letter-spacing: 0.03em;
   color: var(--white-text);
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
-.appeal {
+.appeal.tel {
+  font-weight: 400;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+.appeal.mail {
+  display: inline-block;
+  margin-bottom: 9px;
   font-weight: 400;
   line-height: 171%;
   letter-spacing: 0.03em;
@@ -167,22 +236,22 @@ ul {
   color: var(--white-text);
   background: var(--hover-color-blue);
 }
-.sub-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 200%;
-letter-spacing: 0.06em;
-color:var(--main-color);
-text-decoration: none;
+.sub-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+  text-decoration: none;
 }
-.filter-class{
-font-weight: 400;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.03em;
-color: var(--basic-text);
-text-decoration: none;
+.filter-class {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+  text-decoration: none;
 }
-.card{
+.card {
   text-decoration: none;
 }
